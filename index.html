@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MediTriagem · Assistente de Triagem</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="layout">
+    <main class="chat-container">
+      <header class="chat-header">
+        <div class="title-group">
+          <h1>MediTriagem</h1>
+          <span class="status-indicator" aria-hidden="true"></span>
+          <span class="status-text">online</span>
+        </div>
+        <button id="limparBtn" class="icon-btn" title="Limpar histórico" aria-label="Limpar histórico">🗑️</button>
+      </header>
+
+      <section class="messages-area" id="messagesArea" aria-live="polite"></section>
+
+      <footer class="options-area" id="optionsArea"></footer>
+    </main>
+
+    <aside class="history-panel">
+      <h2>Histórico de triagens</h2>
+      <ul id="historyList" class="history-list"></ul>
+    </aside>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
