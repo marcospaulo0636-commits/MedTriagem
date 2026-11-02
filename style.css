@@ -70,16 +70,16 @@ body {
 }
 
 .icon-btn {
-  background: #d9dce1;
+  background: transparent;
   border: 1px solid #ffffffaa;
-  color: #ffffff;
+  color: #fff;
   border-radius: 8px;
   padding: 6px 10px;
   font-size: 1rem;
   cursor: pointer;
   transition: .2s;
 }
-.icon-btn:hover { background: #ff9900; border-color: #fff; }
+.icon-btn:hover { background: #fff; border-color: #fff; }
 
 .messages-area {
   flex: 1;

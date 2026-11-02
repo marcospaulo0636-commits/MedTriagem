@@ -6,7 +6,7 @@ const KEY_HISTORICO = "triagem_historico";
 const PERGUNTAS = [
   {
     id: "sintoma",
-    texto: "Qual é o seu sintoma principal?",
+    texto: "1/3 · Qual é o seu sintoma principal?",
     opcoes: [
       { rotulo: "Febre", valor: "febre", peso: 1 },
       { rotulo: "Dor de cabeça", valor: "dor_cabeca", peso: 1 },
@@ -18,7 +18,7 @@ const PERGUNTAS = [
   },
   {
     id: "intensidade",
-    texto: "Qual a intensidade?",
+    texto: "2/3 · Qual a intensidade?",
     opcoes: [
       { rotulo: "Leve", valor: "leve", peso: 0 },
       { rotulo: "Moderada", valor: "moderada", peso: 1 },
@@ -27,7 +27,7 @@ const PERGUNTAS = [
   },
   {
     id: "duracao",
-    texto: "Há quanto tempo isso começou?",
+    texto: "3/3 · Há quanto tempo isso começou?",
     opcoes: [
       { rotulo: "Menos de 24h", valor: "menos_24h", peso: 0 },
       { rotulo: "1 a 3 dias", valor: "1_3_dias", peso: 1 },
